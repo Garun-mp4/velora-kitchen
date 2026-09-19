@@ -4,7 +4,7 @@ import { Reveal } from '../components/Reveal'
 export function PrivacyPage() {
   return <>
     <PageMeta title="Политика конфиденциальности" />
-    <section className="simple-page-head"><div className="container-narrow"><Reveal><span className="eyebrow">VELORA</span><h1>Политика конфиденциальности.</h1><p>Кратко о данных, которые могут быть переданы через формы сайта.</p></Reveal></div></section>
+    <section className="simple-page-head simple-page-head--privacy"><div className="container-narrow"><Reveal><span className="eyebrow">VELORA</span><h1>Политика конфиденциальности.</h1><p>Кратко о данных, которые могут быть переданы через формы сайта.</p></Reveal></div></section>
     <section className="legal-page section-pad"><div className="container-narrow legal-copy">
       <h2>1. Какие данные мы получаем</h2><p>Через форму пользователь может добровольно указать имя, телефон, тип проекта и комментарий. Эти сведения нужны только для ответа на запрос и обсуждения будущего проекта.</p>
       <h2>2. Для чего нужны данные</h2><p>Данные используются для связи по инициативе пользователя, обсуждения задачи и подготовки предварительного расчёта. Они не предназначены для публикации или открытого доступа.</p>
