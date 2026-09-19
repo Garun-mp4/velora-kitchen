@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>VELORA</title>
+  <style>
+    .mark {
+      fill: #131211;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .mark {
+        fill: #ffffff;
+      }
+    }
+  </style>
+  <path class="mark" d="M5 5h5.2L16 20.8 21.8 5H27l-8.8 22h-4.4L5 5Z" />
+</svg>
