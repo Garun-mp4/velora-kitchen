@@ -69,3 +69,16 @@ Hero preload настроен в `index.html`. Для фотографий по�
 ## Deploy
 
 Проект использует `BrowserRouter`. При статическом хостинге сервер должен перенаправлять неизвестные route-запросы на `index.html` (SPA fallback).
+
+### Vercel
+
+Проект готов к деплою из GitHub: `vercel.json` уже содержит SPA rewrite, команду сборки и папку результата.
+
+- Framework Preset: `Vite`
+- Root Directory: `.`
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Install Command: `npm install` (по умолчанию)
+- Environment Variables: не требуются
+
+Production Branch: `main`.
